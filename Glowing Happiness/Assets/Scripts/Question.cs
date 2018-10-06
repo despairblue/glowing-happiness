@@ -20,7 +20,13 @@ public class Question : MonoBehaviour
         setText(question);
         answers = GetComponentsInChildren<Answer>();
         changeAnswer();
-    }        
+    }
+
+    public void DeactivateNavigation()
+    {
+        GetComponentInChildren<Forward>().gameObject.SetActive(false);
+        GetComponentInChildren<Backward>().gameObject.SetActive(false);
+    }
 
     public void setText(string text)
     {

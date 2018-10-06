@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 222904659625228960}
   - component: {fileID: 114418070480215084}
   - component: {fileID: 114179554820334238}
+  - component: {fileID: 114307436782219878}
   m_Layer: 5
   m_Name: Forward
   m_TagString: Untagged
@@ -200,6 +201,7 @@ GameObject:
   - component: {fileID: 222179824496868408}
   - component: {fileID: 114264718781338510}
   - component: {fileID: 114970476100358468}
+  - component: {fileID: 114295511637457868}
   m_Layer: 5
   m_Name: Backward
   m_TagString: Untagged
@@ -273,6 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Main
   answers: []
+  index: 0
 --- !u!114 &114091820988263336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -538,8 +541,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114089711449643536}
-        m_MethodName: Forward
+      - m_Target: {fileID: 114307436782219878}
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -638,6 +641,28 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114295511637457868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1816645932191962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658accc1b58f2444983d461643b29461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114307436782219878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341178085470622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04018224938dfef44b75f869abe7d39f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114324731616583042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1400,8 +1425,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114089711449643536}
-        m_MethodName: Backward
+      - m_Target: {fileID: 114295511637457868}
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -14,12 +14,15 @@ public class Answer : MonoBehaviour {
     public string Scene;
     public int ConfessionDelta;
 
+    private bool buttonPressed;
+
 
     public void Start()
     {
         Question = GetComponentInParent<Question>();
         AnswerObject = GetComponentInChildren<TextMeshProUGUI>();
         AnswerObject.text = text;
+        buttonPressed = false;
         if (Scene == "")
         {
             gameObject.SetActive(false);
@@ -29,10 +32,17 @@ public class Answer : MonoBehaviour {
 
     public void OnClick()
     {
-        UpdateConfessionMeter();
-        React();
-        //Wait for Player Input
-        SceneManager.LoadScene(Scene);
+        if (buttonPressed == false)
+        {
+            UpdateConfessionMeter();
+            React();
+            AnswerObject.text = "Weiter";
+            buttonPressed = true;
+            Question.DeactivateNavigation();
+        }
+        else {
+            SceneManager.LoadScene(Scene);
+        }       
     }
 
     private void UpdateConfessionMeter() {
