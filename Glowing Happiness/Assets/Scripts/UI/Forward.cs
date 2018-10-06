@@ -11,10 +11,15 @@ public class Forward : MonoBehaviour {
         question = GetComponentInParent<Question>();
     }
 
-    public void onClick()
+    public void OnClick()
     {
         question.index += 1;
-        if (question.index > question.answers.Length -1)
+        checkIfQuestionIsAtEnd();
+        question.changeAnswer();
+    }
+
+    private void checkIfQuestionIsAtEnd() {
+        if (question.index > question.answers.Length - 1)
         {
             question.index = question.answers.Length - 1;
             this.enabled = false;
@@ -23,6 +28,5 @@ public class Forward : MonoBehaviour {
         {
             this.enabled = true;
         }
-        question.changeAnswer();
     }
 }
