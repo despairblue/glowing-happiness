@@ -480,6 +480,41 @@ Prefab:
       propertyPath: Reaction
       value: Why? Because we are Devils. Thats what we do best.
       objectReference: {fileID: 0}
+    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Scene
+      value: 1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionDelta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionCondition
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionCondition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Scene
+      value: 2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Scene
+      value: 3-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Reaction
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
   m_IsPrefabAsset: 0

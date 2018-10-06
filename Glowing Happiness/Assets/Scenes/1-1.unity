@@ -473,7 +473,58 @@ Prefab:
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: text
-      value: Casual
+      value: Im fine. Darla is also... fine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114676891601462434, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: question
+      value: How are you? How's your wife?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Reaction
+      value: That's great to hear! Happy employees are good employees.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: text
+      value: I dont know. I've been feeling quite stressed lately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Reaction
+      value: Are you okay? You dont look so good. Spreading hate and death into the
+        world can be exhausting sometimes, I know. But somebody has to do it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Scene
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionCondition
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
