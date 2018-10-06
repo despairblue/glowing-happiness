@@ -437,8 +437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Ehm... I dont know. Maybe we can just chat a bit.
   Reaction: Okay, sure let's chat, Joe
-  Scene: 1-2
-  ConfessionDelta: 10
+  Scene: 1-1
+  ConfessionDelta: 0
   ConfessionCondition: 0
 --- !u!114 &114109800834154792
 MonoBehaviour:
@@ -452,8 +452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: I want to talk about my Job.
-  Reaction: 'Im glad you brought that up, because I also wanted to talk about this. '
-  Scene: 1-2
+  Reaction: 'Im glad you brought that up, because I also wanted to talk about it. '
+  Scene: 2-1
   ConfessionDelta: 0
   ConfessionCondition: 0
 --- !u!114 &114130849483115202
@@ -1153,10 +1153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: Why do we need to do this ?
-  Reaction: 
-  Scene: 
+  Reaction: Why? Because we are Devils. Thats what we do best.
+  Scene: 3-1
   ConfessionDelta: 0
-  ConfessionCondition: 0
+  ConfessionCondition: 3
 --- !u!114 &114409867470918674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1702,7 +1702,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2ff83e9fc408a4d2388eb0c21d334454, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79ad9174fa66440cbab35216dd83d020, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1863,7 +1863,7 @@ MonoBehaviour:
   Reaction: 
   Scene: 1-1
   ConfessionDelta: 0
-  ConfessionCondition: 100
+  ConfessionCondition: 5
 --- !u!222 &222147311428955694
 CanvasRenderer:
   m_ObjectHideFlags: 1
