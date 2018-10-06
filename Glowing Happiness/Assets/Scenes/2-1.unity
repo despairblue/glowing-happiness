@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -420,26 +420,6 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 534669904}
-    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -460,6 +440,26 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -472,55 +472,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: text
-      value: Yes, Master.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114676891601462434, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: question
-      value: Joe... You know you can always tell me if something's bothering you,
-        right ?
-      objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Reaction
-      value: Good. I hate it when people lie to me.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: text
-      value: I dont know. I've been feeling quite stressed lately.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Reaction
-      value: Are you okay? You dont look so good. Spreading hate and death into the
-        world can be exhausting sometimes, I know. But somebody has to do it.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: ConfessionDelta
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
       propertyPath: Scene
-      value: Main
-      objectReference: {fileID: 0}
-    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: ConfessionCondition
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: ConfessionDelta
-      value: 1
+      value: 1-2
       objectReference: {fileID: 0}
     - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: Scene
-      value: Main
+      value: 1-2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
