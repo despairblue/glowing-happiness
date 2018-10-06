@@ -470,6 +470,21 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: text
+      value: I want to quit!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Scene
+      value: 1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: ConfessionCondition
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
   m_IsPrefabAsset: 0

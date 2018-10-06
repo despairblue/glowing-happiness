@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 
-public class Answer : MonoBehaviour {
+public class Answer : MonoBehaviour
+{
 
     private Question Question;
     private TextMeshProUGUI AnswerObject;
@@ -13,6 +14,7 @@ public class Answer : MonoBehaviour {
     public string Reaction;
     public string Scene;
     public int ConfessionDelta;
+    public int ConfessionCondition = 0;
 
     private bool buttonPressed;
 
@@ -26,6 +28,11 @@ public class Answer : MonoBehaviour {
         if (Scene == "")
         {
             gameObject.SetActive(false);
+        }
+
+        if ( PlayerPrefs.GetInt("confession") < ConfessionCondition)
+        {
+            gameObject.GetComponent<Button>().interactable = false;
         }
     }
 
@@ -41,19 +48,22 @@ public class Answer : MonoBehaviour {
             Question.DeactivateBackward();
             Question.DeactivateForward();
         }
-        else {
+        else
+        {
             SceneManager.LoadScene(Scene);
-        }       
+        }
     }
 
-    private void UpdateConfessionMeter() {
+    private void UpdateConfessionMeter()
+    {
         int currentConfession = PlayerPrefs.GetInt("confession");
         PlayerPrefs.SetInt("confession", currentConfession + ConfessionDelta);
     }
 
-    private void React() {
+    private void React()
+    {
         Question.setText(Reaction);
     }
 
-    
+
 }
