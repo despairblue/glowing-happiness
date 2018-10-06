@@ -420,36 +420,6 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 534669904}
-    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -470,50 +440,35 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: Reaction
-      value: 'Im glad you brought that up, because I also wanted to talk about it. '
+      propertyPath: m_havePropertiesChanged
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: Reaction
-      value: Why? Because we are Devils. Thats what we do best.
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: Scene
-      value: 1-1
+      propertyPath: m_havePropertiesChanged
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: ConfessionDelta
-      value: 0
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: ConfessionCondition
-      value: 5
+      propertyPath: m_havePropertiesChanged
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: ConfessionCondition
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Scene
-      value: 2-1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Scene
-      value: 3-1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Reaction
-      value: 
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
