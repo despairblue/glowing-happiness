@@ -11,7 +11,7 @@ public class Question : MonoBehaviour
     public string question;
     public Answer[] answers;
 
-    private int index;
+    public int index;
 
     public void Start()
     {
@@ -20,33 +20,14 @@ public class Question : MonoBehaviour
         setText(question);
         answers = GetComponentsInChildren<Answer>();
         changeAnswer();
-    }
-    
-
-    public void Forward()
-    {
-        index += 1;
-        if (answers.Length <= index) {
-            index = 0;
-        }
-        changeAnswer();
-    }
-
-    public void Backward()
-    {
-        index -= 1;
-        if (index < 0) {
-            index = answers.Length - 1;
-        }
-        changeAnswer();
-    }
+    }        
 
     public void setText(string text)
     {
         Text.text = text;
     }
 
-    private void changeAnswer()
+    public void changeAnswer()
     {
         for (int i = 0; i < answers.Length; i++)
         {
