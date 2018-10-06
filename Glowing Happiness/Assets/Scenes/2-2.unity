@@ -473,23 +473,24 @@ Prefab:
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: Scene
-      value: 2-2
+      value: Main
       objectReference: {fileID: 0}
     - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: Scene
-      value: 2-2
+      value: Main
       objectReference: {fileID: 0}
     - target: {fileID: 114676891601462434, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: question
-      value: You're still pretty new to Hell Inc., correct? How are you liking it
-        here so far?
+      value: "Joe. There's something I wanted to talk about with you. It regards your
+        latest assignment. Why did you not convince the desperate ex-boyfriend to
+        pull the trigger on his former fianc\xE9e?"
       objectReference: {fileID: 0}
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: text
-      value: I like this place. It is really warm in here.
+      value: I ehm... Wanted to... To let the anger inside him fester and grow larger.
       objectReference: {fileID: 0}
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
@@ -499,13 +500,14 @@ Prefab:
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: Reaction
-      value: Yes. It's cozy, isn't it? Souls of sinners just burn better than anything
-        else.
+      value: Brilliant! And pulling the trigger would have purged him of all this
+        beautiful anger. I'm really starting to like you, Joe! You think outside of
+        the box. That's exactly what we need here at Hell Inc.!
       objectReference: {fileID: 0}
     - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: text
-      value: It's a bit different from what I imagined.
+      value: I just couldn't do it. It felt wrong.
       objectReference: {fileID: 0}
     - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
@@ -515,8 +517,8 @@ Prefab:
     - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: Reaction
-      value: Is it? Well, I'm sure you will get used to all of this pretty quickly.
-        I believe in you, Joe.
+      value: Wrong is our job, Joe! You need to get over this feeling. Otherwise,
+        I can't promise that this will end well for you.
       objectReference: {fileID: 0}
     - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}

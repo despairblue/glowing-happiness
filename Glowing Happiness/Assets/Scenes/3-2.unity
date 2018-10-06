@@ -420,12 +420,12 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 534669904}
-    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -440,12 +440,12 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -460,73 +460,25 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114646901344328162, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114203033362230868, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
-      propertyPath: Scene
-      value: 2-2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Scene
-      value: 2-2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114676891601462434, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: question
-      value: You're still pretty new to Hell Inc., correct? How are you liking it
-        here so far?
-      objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: text
-      value: I like this place. It is really warm in here.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
       propertyPath: ConfessionDelta
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114102445469454742, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Reaction
-      value: Yes. It's cozy, isn't it? Souls of sinners just burn better than anything
-        else.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: text
-      value: It's a bit different from what I imagined.
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: ConfessionDelta
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114109800834154792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: Reaction
-      value: Is it? Well, I'm sure you will get used to all of this pretty quickly.
-        I believe in you, Joe.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114394605669353868, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: ConfessionCondition
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: ConfessionCondition
-      value: 100
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
