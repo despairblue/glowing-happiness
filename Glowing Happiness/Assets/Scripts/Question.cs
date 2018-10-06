@@ -73,7 +73,7 @@ public class Question : MonoBehaviour
 
     public void DeactivateForward()
     {
-        GetComponentInChildren<Forward>().gameObject.SetActive(false);
+        GetComponentInChildren<Forward>(true).gameObject.SetActive(false);
     }
 
     public void ActivateForward()
@@ -84,7 +84,7 @@ public class Question : MonoBehaviour
     public void DeactivateBackward()
     {
         Debug.Log("deactivate backward");
-        GetComponentInChildren<Backward>().gameObject.SetActive(false);
+        GetComponentInChildren<Backward>(true).gameObject.SetActive(false);
     }
 
     public void ActivateBackward()
