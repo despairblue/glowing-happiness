@@ -435,10 +435,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b72cbb09e844db41afc66d924dbfef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 1
-  Reaction: Sad reacts only
-  Scene: 1-1
+  text: Ehm... I dont know. Maybe we can just chat a bit.
+  Reaction: Okay, sure let's chat, Joe
+  Scene: 1-2
   ConfessionDelta: 10
+  ConfessionCondition: 0
 --- !u!114 &114109800834154792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -450,10 +451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b72cbb09e844db41afc66d924dbfef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 2
-  Reaction: 
-  Scene: 1-1
+  text: I want to talk about my Job.
+  Reaction: 'Im glad you brought that up, because I also wanted to talk about this. '
+  Scene: 1-2
   ConfessionDelta: 0
+  ConfessionCondition: 0
 --- !u!114 &114130849483115202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1150,10 +1152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b72cbb09e844db41afc66d924dbfef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 3
+  text: Why do we need to do this ?
   Reaction: 
   Scene: 
   ConfessionDelta: 0
+  ConfessionCondition: 0
 --- !u!114 &114409867470918674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1535,9 +1538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea48b40325db41499e0c99aa8f318a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  question: Dont you think we play a crucial part in the world ? There can only be
-    peace, when there is violence, afterall. Only love, when there is hate. What do
-    you think, Joe?
+  question: What do you want to talk about?
   answers: []
   index: 0
 --- !u!114 &114684265232126254
@@ -1858,10 +1859,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b72cbb09e844db41afc66d924dbfef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 4
+  text: Actually... There is something I want to tell you...
   Reaction: 
-  Scene: 
+  Scene: 1-1
   ConfessionDelta: 0
+  ConfessionCondition: 100
 --- !u!222 &222147311428955694
 CanvasRenderer:
   m_ObjectHideFlags: 1
