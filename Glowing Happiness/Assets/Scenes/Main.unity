@@ -420,22 +420,12 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 534669904}
-    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -450,12 +440,22 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114323009783404352, guid: b4f0c076a7acea7409c9c72f287646db,
+    - target: {fileID: 114684265232126254, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273041470505792, guid: b4f0c076a7acea7409c9c72f287646db,
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -469,6 +469,18 @@ Prefab:
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Reaction
+      value: I can't do this anymore. I hate my job ! Spreading violence and hatred
+        ... its just wrong. I want to spread peace and love instead. I wish I hadn't
+        been born as a devil. Hell sucks. I quit !
+      objectReference: {fileID: 0}
+    - target: {fileID: 114960103939999158, guid: b4f0c076a7acea7409c9c72f287646db,
+        type: 2}
+      propertyPath: Scene
+      value: Main
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f0c076a7acea7409c9c72f287646db, type: 2}
