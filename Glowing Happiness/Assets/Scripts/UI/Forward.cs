@@ -13,20 +13,8 @@ public class Forward : MonoBehaviour {
 
     public void OnClick()
     {
-        question.index += 1;
-        checkIfQuestionIsAtEnd();
-        question.changeAnswer();
+        question.nextAnswer();
     }
 
-    private void checkIfQuestionIsAtEnd() {
-        if (question.index > question.answers.Length - 1)
-        {
-            question.index = question.answers.Length - 1;
-            this.enabled = false;
-        }
-        else
-        {
-            this.enabled = true;
-        }
-    }
+    
 }

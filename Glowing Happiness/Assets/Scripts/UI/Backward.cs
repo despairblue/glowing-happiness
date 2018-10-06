@@ -14,21 +14,9 @@ public class Backward : MonoBehaviour
 
     public void OnClick()
     {
-        question.index -= 1;
-        checkIfQuestionIsAtEnd();
-        question.changeAnswer();
+        Debug.Log("clicked");
+        question.previousAnswer();
     }
 
-    private void checkIfQuestionIsAtEnd()
-    {
-        if (question.index < 1)
-        {
-            question.index = 0;
-            this.enabled = false;
-        }
-        else
-        {
-            this.enabled = true;
-        }
-    }
+    
 }

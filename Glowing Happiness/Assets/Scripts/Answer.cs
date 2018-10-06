@@ -38,7 +38,8 @@ public class Answer : MonoBehaviour {
             React();
             AnswerObject.text = "Weiter";
             buttonPressed = true;
-            Question.DeactivateNavigation();
+            Question.DeactivateBackward();
+            Question.DeactivateForward();
         }
         else {
             SceneManager.LoadScene(Scene);
