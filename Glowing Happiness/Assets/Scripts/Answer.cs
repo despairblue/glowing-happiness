@@ -43,7 +43,7 @@ public class Answer : MonoBehaviour
         {
             UpdateConfessionMeter();
             React();
-            AnswerObject.text = "Weiter";
+            AnswerObject.text = "Continue";
             buttonPressed = true;
             Question.DeactivateBackward();
             Question.DeactivateForward();
