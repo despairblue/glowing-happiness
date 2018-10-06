@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class Answer : MonoBehaviour {
 
     private Question Question;
-    private TextMeshProUGUI AnswerObejct;
+    private TextMeshProUGUI AnswerObject;
     public string text;
     public string Reaction;
     public string Scene;
@@ -17,9 +18,14 @@ public class Answer : MonoBehaviour {
     public void Start()
     {
         Question = GetComponentInParent<Question>();
-        AnswerObejct = GetComponentInChildren<TextMeshProUGUI>();
-        AnswerObejct.text = text;
+        AnswerObject = GetComponentInChildren<TextMeshProUGUI>();
+        AnswerObject.text = text;
+        if (Scene == "")
+        {
+            gameObject.SetActive(false);
+        }
     }
+
 
     public void OnClick()
     {
