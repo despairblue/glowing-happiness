@@ -5,65 +5,25 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 
-public class Answer : MonoBehaviour
+public class Answer : MonoBehaviour, IRenderable
 {
-
-    private Question Question;
     private TextMeshProUGUI AnswerObject;
-    public string text;
-    public string Reaction;
-    public string Scene;
-    public int ConfessionDelta;
-    public int ConfessionCondition = 0;
+    public State state;
 
-    private bool buttonPressed;
-
-
-    public void Start()
+    public void Awake()
     {
-        Question = GetComponentInParent<Question>();
         AnswerObject = GetComponentInChildren<TextMeshProUGUI>();
-        AnswerObject.text = text;
-        buttonPressed = false;
-        if (Scene == "")
-        {
-            gameObject.SetActive(false);
-        }
-
-        if ( PlayerPrefs.GetInt("confession") < ConfessionCondition)
-        {
-            gameObject.GetComponent<Button>().interactable = false;
-        }
+        state.observe(this);
     }
 
+    public void render()
+    {
+        AnswerObject.text = state.getSelectedAnswer().text;
+        gameObject.GetComponent<Button>().interactable = state.isAnswerActive();
+    }
 
     public void OnClick()
     {
-        if (buttonPressed == false)
-        {
-            UpdateConfessionMeter();
-            React();
-            AnswerObject.text = "Continue";
-            buttonPressed = true;
-            Question.DeactivateBackward();
-            Question.DeactivateForward();
-        }
-        else
-        {
-            SceneManager.LoadScene(Scene);
-        }
+        state.selectAnswer();
     }
-
-    private void UpdateConfessionMeter()
-    {
-        int currentConfession = PlayerPrefs.GetInt("confession");
-        PlayerPrefs.SetInt("confession", currentConfession + ConfessionDelta);
-    }
-
-    private void React()
-    {
-        Question.setText(Reaction);
-    }
-
-
 }

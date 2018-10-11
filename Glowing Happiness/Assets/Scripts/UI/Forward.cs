@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Forward : MonoBehaviour {
-
-    private Question question;
-
+public class Forward : MonoBehaviour, IRenderable
+{
+    public State state;
     public void Start()
     {
-        question = GetComponentInParent<Question>();
+        state.observe(this);
+    }
+
+    public void render()
+    {
+        gameObject.SetActive(!state.isLastAnswer());
     }
 
     public void OnClick()
     {
-        question.nextAnswer();
+        state.nextAnswer();
     }
 
-    
+
 }

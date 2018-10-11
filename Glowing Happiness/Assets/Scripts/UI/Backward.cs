@@ -2,21 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Backward : MonoBehaviour
+public class Backward : MonoBehaviour, IRenderable
 {
-
-    private Question question;
-
+    public State state;
     public void Start()
     {
-        question = GetComponentInParent<Question>();
+        state.observe(this);
+    }
+
+    public void render()
+    {
+        gameObject.SetActive(!state.isFirstAnswer());
     }
 
     public void OnClick()
     {
-        Debug.Log("clicked");
-        question.previousAnswer();
+        Debug.Log("OnClick");
+        state.previousAnswer();
     }
 
-    
+
 }
