@@ -35,16 +35,14 @@ public class State : MonoBehaviour
         renderables.Remove(renderable);
     }
 
-    public AnswerState nextAnswer()
+    public void nextAnswer()
     {
         setSelectedAnswer(selectedAnswerIndex + 1);
-        return getSelectedAnswer();
     }
 
-    public AnswerState previousAnswer()
+    public void previousAnswer()
     {
         setSelectedAnswer(selectedAnswerIndex - 1);
-        return getSelectedAnswer();
     }
 
     public AnswerState getSelectedAnswer()
@@ -54,7 +52,7 @@ public class State : MonoBehaviour
 
     public bool isAnswerActive()
     {
-        return confessionMeter < getSelectedAnswer().confessionCondition;
+        return confessionMeter >= getSelectedAnswer().confessionCondition;
     }
 
     public void selectAnswer()
@@ -83,12 +81,23 @@ public class State : MonoBehaviour
 
     private void nextScene()
     {
-        scene = GetComponent(scene.answers[selectedAnswerIndex].nextScene) as Scene;
+        var selectedAnswer = getSelectedAnswer();
+        var nextScene = selectedAnswer.getReactionScene();
+        if (nextScene)
+        {
+            scene = nextScene;
+        }
+        else
+        {
+            scene = GameObject.Find(selectedAnswer.nextScene).GetComponent<Scene>();
+        }
+        selectedAnswerIndex = 0;
         renderObservers();
     }
 
     private void setSelectedAnswer(int index)
     {
         this.selectedAnswerIndex = Mathf.Clamp(index, 0, scene.answers.Length - 1);
+        renderObservers();
     }
 }

@@ -164,13 +164,13 @@ Prefab:
     - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
         type: 2}
       propertyPath: question
-      value: What's the Question?
+      value: What do you want to talk about?
       objectReference: {fileID: 0}
     - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
         type: 2}
       propertyPath: answers.Array.data[0]
       value: 
-      objectReference: {fileID: 1861966771}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
   m_IsPrefabAsset: 0
@@ -219,6 +219,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 27887361}
+  - {fileID: 1488921917}
+  - {fileID: 2126980473}
+  - {fileID: 2037170034}
+  - {fileID: 467265261}
+  - {fileID: 1133382930}
+  - {fileID: 901048748}
+  - {fileID: 1787236813}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -423,6 +430,131 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 173159330}
   m_CullTransparentMesh: 0
+--- !u!1001 &321409409
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1133382930}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Y-yes. I do, but...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: See? Because this is what we were born to do. I'm glad that we're on
+        the same page here, Joe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 3-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &467265260
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: "Joe. There's something I wanted to talk about with you. It regards your
+        latest assignment. Why did you not convince the desperate ex-boyfriend to
+        pull the trigger on his former fianc\xE9e?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 2-2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &467265261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 467265260}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +632,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &582668581
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 901048748}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Missing
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &584410761
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 27887361}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: I want to talk about my Job.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: 'Im glad you brought that up, because I also wanted to talk about it. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &677298375
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,6 +868,196 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &680297987
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2037170034}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Is it? Well, I'm sure you will get used to all of this pretty quickly.
+        I believe in you, Joe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: It's a bit different from what I imagined.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &760666166
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2126980473}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Are you okay? You dont look so good. Spreading hate and death into the
+        world can be exhausting sometimes, I know. But somebody has to do it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: I dont know. I've been feeling quite stressed lately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &901048747
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: What do you want to talk about?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 3-2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &901048748 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 901048747}
 --- !u!1 &905036136
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +1131,138 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 905036136}
   m_CullTransparentMesh: 0
+--- !u!1001 &1068751927
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 27887361}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Why do we need to do this?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 3-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionCondition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Why? Because we are Devils. Thats what we do best.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1088850692
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1787236813}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: You Won
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Missing
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1100888565
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +1446,63 @@ RectTransform:
   m_AnchoredPosition: {x: 287.5, y: 153}
   m_SizeDelta: {x: 575, y: 306}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1133382929
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: Do you not get excited, when smelling all this Anger and Hatred in the
+        Air ? Hmmmmmm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 3-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &1133382930 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1133382929}
 --- !u!1 &1186339083
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +1576,141 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1186339083}
   m_CullTransparentMesh: 0
+--- !u!1001 &1217273071
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1488921917}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Are you okay? You dont look so good. Spreading hate and death into the
+        world can be exhausting sometimes, I know. But somebody has to do it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: I dont know. I've been feeling quite stressed lately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1244402289
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 467265261}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: I ehm... Wanted to... To let the anger inside him fester and grow larger.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Brilliant! And pulling the trigger would have purged him of all this
+        beautiful anger. I'm really starting to like you, Joe! You think outside of
+        the box. That's exactly what we need here at Hell Inc.!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1260267385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1949,140 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1311263559}
   m_CullTransparentMesh: 0
+--- !u!1001 &1365597562
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 467265261}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Wrong is our job, Joe! You need to get over this feeling. Otherwise,
+        I can't promise that this will end well for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: I just couldn't do it. It felt wrong.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1408864485
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2037170034}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: I like this place. It is really warm in here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Yes. It's cozy, isn't it? Souls of sinners just burn better than anything
+        else.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1412633456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +2156,251 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1412633456}
   m_CullTransparentMesh: 0
+--- !u!1001 &1450229981
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 901048748}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Missing
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1467884231
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1488921917}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Im fine. Darla is also... fine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: That's great to hear! Happy employees are good employees.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1488921916
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: How are you? How's your wife?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 1-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &1488921917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1488921916}
+--- !u!1001 &1510668776
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 27887361}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Ehm... I dont know. Maybe we can just chat a bit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Okay, sure let's chat, Joe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1516135934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,6 +2480,72 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1516135934}
   m_CullTransparentMesh: 0
+--- !u!1001 &1629941505
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2126980473}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Yes, Master.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: Good. I hate it when people lie to me.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1633382540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,6 +2619,74 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1633382540}
   m_CullTransparentMesh: 0
+--- !u!1001 &1714810250
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 27887361}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Actually... There is something I want to tell you...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 4-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionCondition
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: I can't do this anymore. I hate my job ! Spreading violence and hatred
+        ... its just wrong. I want to spread peace and love instead. I wish I hadn't
+        been born as a devil. Hell sucks. I quit!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1719353616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,6 +2830,72 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1719353616}
   m_CullTransparentMesh: 0
+--- !u!1001 &1743751072
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1133382930}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: FLOWERS!? Joe, you're making me nervous. Really nervous.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: No. Actually I don't. I much prefer the smell of flowers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 3-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1753004839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +3131,63 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1787124971}
   m_CullTransparentMesh: 0
+--- !u!1001 &1787236812
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: Do you not get excited, when smelling all this Anger and Hatred in the
+        Air ? Hmmmmmm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 4-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &1787236813 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1787236812}
 --- !u!1 &1790949581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,50 +3330,73 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790949581}
   m_CullTransparentMesh: 0
---- !u!1 &1861966769
-GameObject:
+--- !u!1001 &1946346684
+Prefab:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1861966770}
-  - component: {fileID: 1861966771}
-  m_Layer: 0
-  m_Name: Answer1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1861966770
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861966769}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 27887361}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1861966771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861966769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0013762937e14895a6a06141dca6de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: Huh?
-  nextScene: 
-  confessionDelta: 0
-  confessionCondition: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1787236813}
+    m_Modifications:
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153450559357316, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519570878514824, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: text
+      value: Y-yes. I do, but...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: reaction
+      value: See? Because this is what we were born to do. I'm glad that we're on
+        the same page here, Joe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: nextScene
+      value: 3-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114453121774220216, guid: d1a818992382f4511b00693a35b3d073,
+        type: 2}
+      propertyPath: confessionDelta
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1a818992382f4511b00693a35b3d073, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1978215955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +3540,63 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978215955}
   m_CullTransparentMesh: 0
+--- !u!1001 &2037170033
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: You're still pretty new to Hell Inc., correct? How are you liking it
+        here so far?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 2-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &2037170034 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 2037170033}
 --- !u!1 &2080106774
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,3 +3786,60 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2112616614}
   m_CullTransparentMesh: 0
+--- !u!1001 &2126980472
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 49430318}
+    m_Modifications:
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695570755123422, guid: c302229b80cbb4272b28b17c45b1750d,
+        type: 2}
+      propertyPath: question
+      value: Joe... You know you can always tell me if something's bothering you,
+        right ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489240321980426, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+      propertyPath: m_Name
+      value: 1-2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c302229b80cbb4272b28b17c45b1750d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &2126980473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4814604344985722, guid: c302229b80cbb4272b28b17c45b1750d,
+    type: 2}
+  m_PrefabInternal: {fileID: 2126980472}

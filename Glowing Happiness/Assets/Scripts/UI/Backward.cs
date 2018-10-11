@@ -17,7 +17,6 @@ public class Backward : MonoBehaviour, IRenderable
 
     public void OnClick()
     {
-        Debug.Log("OnClick");
         state.previousAnswer();
     }
 

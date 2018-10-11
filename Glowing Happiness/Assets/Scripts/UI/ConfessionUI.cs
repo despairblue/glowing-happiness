@@ -9,7 +9,7 @@ public class ConfessionUI : MonoBehaviour, IRenderable
     public State state;
     private Slider slider;
 
-    public void Start()
+    public void Awake()
     {
         slider = GetComponent<Slider>();
         state.observe(this);
@@ -17,6 +17,6 @@ public class ConfessionUI : MonoBehaviour, IRenderable
 
     public void render()
     {
-        slider.value = PlayerPrefs.GetInt("confession");
+        slider.value = state.confessionMeter;
     }
 }
