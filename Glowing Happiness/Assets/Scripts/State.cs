@@ -57,7 +57,7 @@ public class State : MonoBehaviour
 
     public void selectAnswer()
     {
-        confessionMeter = confessionMeter + getSelectedAnswer().confessionDelta;
+        confessionMeter = Mathf.Max(confessionMeter + getSelectedAnswer().confessionDelta, 0);
         nextScene();
     }
 
